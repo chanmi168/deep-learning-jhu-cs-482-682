@@ -1,0 +1,164 @@
+deeplearning hw2 
+
+1-8
+*use fashion
+*tensorboard screenshot
+*brief explanation of changes
+
+#configration in .sh
+===============================================
+1. num=2+4
+q1_m_default_result.png
+q1_fm_default_result.png
+
+q1_train_acc.png
+q1_train_loss.png
+q1_val_acc.png
+q1_val_loss.png
+ -q1_mnist_default
+ -q1_fashion_mnist_default
+
+2. num=4+4
+q2_m_10epoch_result.png
+q2_m_20epoch_result.png
+q2_fm_10epoch_result.png
+q2_fm_20epoch_result.png
+
+q2_train_acc.png
+q2_train_loss.png
+q2_val_acc.png
+q2_val_loss.png
+ -q2_mnist_10epoch
+ -q2_mnist_20epoch
+ -q2_fashion_mnist_10epoch
+ -q2_fashion_mnist_20epoch
+
+3. num=3+4
+q3_fm_lr1e-1_result.png
+q3_fm_lr1e-2_result.png
+q3_fm_lr1e-3_result.png
+
+q3_train_acc.png
+q3_train_loss.png
+q3_val_acc.png
+q3_val_loss.png
+ -q3_fashion_mnist_lr1e-1
+ -q3_fashion_mnist_lr1e-2
+ -q3_fashion_mnist_lr1e-3
+
+4. num=3+4
+q4_fm_sgd_result.png
+q4_fm_adam_result.png
+q4_fm_rmsprop_result.png
+
+q4_train_acc.png
+q4_train_loss.png
+q4_val_acc.png
+q4_val_loss.png
+ -fashion_mnist_sgd
+ -fashion_mnist_adam
+ -fashion_mnist_rmsprop
+
+5. num=5+4
+q5_fm_drop0_result.png
+q5_fm_drop0_25_result.png
+q5_fm_drop0_5_result.png
+q5_fm_drop0_9_result.png
+q5_fm_drop1_result.png
+
+q5_train_acc.png
+q5_train_loss.png
+q5_val_acc.png
+q5_val_loss.png
+ -fashion_mnist_dropout_0
+ -fashion_mnist_dropout_0_25
+ -fashion_mnist_dropout_0_5
+ -fashion_mnist_dropout_0_9
+ -fashion_mnist_dropout_1
+
+6. num=3+4
+q6_fm_batch8_result.png
+q6_fm_batch64_result.png
+q6_fm_batch512_result.png
+
+q6_train_acc.png
+q6_train_loss.png
+q6_val_acc.png
+q6_val_loss.png
+ -fashion_mnist_batch8
+ -fashion_mnist_batch64
+ -fashion_mnist_batch512
+
+7. num=3+4
+q7_fm_llo_0_5_result.png
+q7_fm_llo_1_result.png
+q7_fm_llo_2_result.png
+
+q7_train_acc.png
+q7_train_loss.png
+q7_val_acc.png
+q7_val_loss.png
+
+8. num=2+4
+q8_fm_default_result.png
+q8_fm_bn_result.png
+
+q8_train_acc.png
+q8_train_loss.png
+q8_val_acc.png
+q8_val_loss.png
+
+9. num=2+4
+q9_fm_bn_result.png
+q9_fm_bn_drop_result.png
+
+q9_train_acc.png
+q9_train_loss.png
+q9_val_acc.png
+q9_val_loss.png
+
+10. num=2+4
+q10_fm_bn_drop_result.png
+q10_fm_drop_bn_result.png
+
+q10_train_acc.png
+q10_train_loss.png
+q10_val_acc.png
+q10_val_loss.png
+
+11. num=2+4
+q11_fm_default_result.png
+q11_fm_extraconv_result.png
+
+q11_train_acc.png
+q11_train_loss.png
+q11_val_acc.png
+q11_val_loss.png
+
+12. num=2+4
+q12_fm_default_result.png
+q12_fm_remove_result.png
+
+q12_train_acc.png
+q12_train_loss.png
+q12_val_acc.png
+q12_val_loss.png
+
+13. num=2+4
+q13_fm_default_result.png
+q13_fm_ultimate_result.png
+
+q13_train_acc.png
+q13_train_loss.png
+q13_val_acc.png
+q13_val_loss.png
+
+15. num=2+4
+q15_m_default_result.png
+q15_m_ultimate_fm_result.png
+
+q15_train_acc.png
+q15_train_loss.png
+q15_val_acc.png
+q15_val_loss.png
+

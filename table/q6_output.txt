@@ -1,0 +1,81 @@
+
+RUNNING TEST FOR: fashion_mnist_q6_batchsize_1_8x
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-labels-idx1-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-images-idx3-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-labels-idx1-ubyte.gz
+Processing...
+Done!
+Epoch: 1 - validation test results - Average val_loss: 0.5354, val_acc: 7992/10000 (79.92%)
+Epoch: 2 - validation test results - Average val_loss: 0.4654, val_acc: 8193/10000 (81.93%)
+Epoch: 3 - validation test results - Average val_loss: 0.4262, val_acc: 8400/10000 (84.00%)
+Epoch: 4 - validation test results - Average val_loss: 0.3841, val_acc: 8586/10000 (85.86%)
+Epoch: 5 - validation test results - Average val_loss: 0.3715, val_acc: 8594/10000 (85.94%)
+Epoch: 6 - validation test results - Average val_loss: 0.3474, val_acc: 8708/10000 (87.08%)
+Epoch: 7 - validation test results - Average val_loss: 0.3417, val_acc: 8728/10000 (87.28%)
+Epoch: 8 - validation test results - Average val_loss: 0.3404, val_acc: 8719/10000 (87.19%)
+Epoch: 9 - validation test results - Average val_loss: 0.3267, val_acc: 8813/10000 (88.13%)
+Epoch: 10 - validation test results - Average val_loss: 0.3197, val_acc: 8831/10000 (88.31%)
+
+epoch,acc,loss,val_acc,val_loss
+1,0.6774,0.8724159468809763,0.7992,0.5354183166503906
+2,0.7848166666666667,0.5880152640183767,0.8193,0.4653533386230469
+3,0.8156166666666667,0.5146612186590831,0.84,0.42623797912597655
+4,0.8331666666666667,0.46891396374702454,0.8586,0.38408455200195313
+5,0.8428,0.4400544599175453,0.8594,0.37147225036621095
+6,0.8507166666666667,0.4161851139386495,0.8708,0.3473885559082031
+7,0.85845,0.39561644426981607,0.8728,0.3417329864501953
+8,0.8635833333333334,0.3876197799523671,0.8719,0.34044130249023435
+9,0.8650666666666667,0.3754994894146919,0.8813,0.3267203674316406
+10,0.8684,0.36634359807570777,0.8831,0.3197134521484375
+
+
+RUNNING TEST FOR: fashion_mnist_q6_batchsize_1x
+Epoch: 1 - validation test results - Average val_loss: 0.8617, val_acc: 6956/10000 (69.56%)
+Epoch: 2 - validation test results - Average val_loss: 0.6909, val_acc: 7510/10000 (75.10%)
+Epoch: 3 - validation test results - Average val_loss: 0.6359, val_acc: 7566/10000 (75.66%)
+Epoch: 4 - validation test results - Average val_loss: 0.5846, val_acc: 7754/10000 (77.54%)
+Epoch: 5 - validation test results - Average val_loss: 0.5662, val_acc: 7821/10000 (78.21%)
+Epoch: 6 - validation test results - Average val_loss: 0.5356, val_acc: 7969/10000 (79.69%)
+Epoch: 7 - validation test results - Average val_loss: 0.5176, val_acc: 8005/10000 (80.05%)
+Epoch: 8 - validation test results - Average val_loss: 0.5155, val_acc: 8103/10000 (81.03%)
+Epoch: 9 - validation test results - Average val_loss: 0.4931, val_acc: 8201/10000 (82.01%)
+Epoch: 10 - validation test results - Average val_loss: 0.4909, val_acc: 8207/10000 (82.07%)
+
+epoch,acc,loss,val_acc,val_loss
+1,0.44193333330154416,1.5527012502670288,0.6956,0.861683740234375
+2,0.6746333333651224,0.884403501033783,0.751,0.6908711181640625
+3,0.7155999999682109,0.768888208357493,0.7566,0.6359445861816406
+4,0.7384833333015441,0.7123909465789795,0.7754,0.5845791198730469
+5,0.7530666666348775,0.6726672340393066,0.7821,0.5661993225097657
+6,0.7645333333333333,0.6445176569302877,0.7969,0.5356116302490235
+7,0.7742499999682109,0.6168555060704549,0.8005,0.5176242126464844
+8,0.7823833333333333,0.6032948455174764,0.8103,0.5154608795166016
+9,0.7879833333333334,0.5874212433973948,0.8201,0.49306259765625
+10,0.7960166666984558,0.5700705528577169,0.8207,0.49089859619140624
+
+
+RUNNING TEST FOR: fashion_mnist_q6_batchsize_8x
+Epoch: 1 - validation test results - Average val_loss: 2.2126, val_acc: 1857/10000 (18.57%)
+Epoch: 2 - validation test results - Average val_loss: 1.9925, val_acc: 3627/10000 (36.27%)
+Epoch: 3 - validation test results - Average val_loss: 1.5527, val_acc: 5317/10000 (53.17%)
+Epoch: 4 - validation test results - Average val_loss: 1.2001, val_acc: 6307/10000 (63.07%)
+Epoch: 5 - validation test results - Average val_loss: 1.0225, val_acc: 6610/10000 (66.10%)
+Epoch: 6 - validation test results - Average val_loss: 0.9331, val_acc: 6851/10000 (68.51%)
+Epoch: 7 - validation test results - Average val_loss: 0.8689, val_acc: 6997/10000 (69.97%)
+Epoch: 8 - validation test results - Average val_loss: 0.8312, val_acc: 7094/10000 (70.94%)
+Epoch: 9 - validation test results - Average val_loss: 0.7897, val_acc: 7204/10000 (72.04%)
+Epoch: 10 - validation test results - Average val_loss: 0.7602, val_acc: 7298/10000 (72.98%)
+
+epoch,acc,loss,val_acc,val_loss
+1,0.15894999997615814,2.2658728199005127,0.1857,2.2125542236328126
+2,0.24093333342870077,2.1407154143015545,0.3627,1.9925019775390624
+3,0.35695000001589455,1.8572953837712607,0.5317,1.5527050537109375
+4,0.4602000000635783,1.5065451564153036,0.6307,1.200082763671875
+5,0.5460499997138977,1.257002560297648,0.661,1.0225132690429688
+6,0.5937666663805644,1.1295618393580118,0.6851,0.9331032043457032
+7,0.6265999999682108,1.049500048828125,0.6997,0.8689065124511719
+8,0.6458999997456869,0.9901833113988241,0.7094,0.8311602722167969
+9,0.6622333330472311,0.9495960877100627,0.7204,0.7897306762695312
+10,0.6737500001907348,0.9102226278305053,0.7298,0.7602417785644531
+
